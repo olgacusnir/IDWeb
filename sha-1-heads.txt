@@ -1,0 +1,196 @@
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch1)
+$ git show HEAD
+commit 7dc737926dae652fc9daad50d1c9b4695cbc106f (HEAD -> branch1, origin/branch1)
+Author: olgacusnir <olga.cusnir@isa.utm.md>
+Date:   Mon Apr 3 00:44:02 2023 +0300
+
+    Add file main.js for branch1
+
+diff --git a/main.js b/main.js
+new file mode 100644
+index 0000000..3896d36
+--- /dev/null
++++ b/main.js
+@@ -0,0 +1 @@
++console.log(Hello, World);
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch1)
+$ git checkout branch2
+Switched to branch 'branch2'
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch2)
+$ git show HEAD
+commit 35b0f9e0aa2e6ca7d419b797d2528ddc814ee2c4 (HEAD -> branch2, origin/branch2)
+Author: olgacusnir <olga.cusnir@isa.utm.md>
+Date:   Mon Apr 3 00:45:17 2023 +0300
+
+    Add file main.py for branch2
+
+diff --git a/main.py b/main.py
+new file mode 100644
+index 0000000..d8abd91
+--- /dev/null
++++ b/main.py
+@@ -0,0 +1 @@
++print(Hello, World)
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch2)
+$ git checkout branch3
+Switched to branch 'branch3'
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch3)
+$ git show HEAD
+commit 87cd4e6fd3202bd17967109dec30242dbb4f127f (HEAD -> branch3, origin/branch3)
+Author: olgacusnir <olga.cusnir@isa.utm.md>
+Date:   Mon Apr 3 00:48:33 2023 +0300
+
+    Add file main.asp for branch3
+
+diff --git a/main.asp b/main.asp
+new file mode 100644
+index 0000000..b3eb722
+--- /dev/null
++++ b/main.asp
+@@ -0,0 +1 @@
++<%Response.Write('Hello, World')%>
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch3)
+$ git checkout branch4
+Switched to branch 'branch4'
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch4)
+$ git show HEAD
+commit c4010aaca5ea46f8a022ec9051b70e44f8969f91 (HEAD -> branch4, origin/branch4)
+Author: olgacusnir <olga.cusnir@isa.utm.md>
+Date:   Mon Apr 3 00:49:52 2023 +0300
+
+     Add file main.sql for branch4
+
+diff --git a/main.sql b/main.sql
+new file mode 100644
+index 0000000..93f1842
+--- /dev/null
++++ b/main.sql
+@@ -0,0 +1 @@
++SELECT 'Hello, World';
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch4)
+$ git checkout branch5
+Switched to branch 'branch5'
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch5)
+$ git show HEAD
+commit f115d69f2f4eae40f70664bc4bd458773b0b2f39 (HEAD -> branch5, origin/branch5)
+Author: olgacusnir <olga.cusnir@isa.utm.md>
+Date:   Mon Apr 3 00:51:02 2023 +0300
+
+    Add file main.java for branch5
+
+diff --git a/main.java b/main.java
+new file mode 100644
+index 0000000..9cecda9
+--- /dev/null
++++ b/main.java
+@@ -0,0 +1 @@
++System.out.println('Hello, World');
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch5)
+$ git checkout branch6
+Switched to branch 'branch6'
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch6)
+$ git show HEAD
+commit fa7cc914395a6f46d0096ace9216fac6d8c47c39 (HEAD -> branch6, origin/branch6)
+Author: olgacusnir <olga.cusnir@isa.utm.md>
+Date:   Mon Apr 3 00:52:01 2023 +0300
+
+    Add file main.rb for branch6
+
+diff --git a/main.rb b/main.rb
+new file mode 100644
+index 0000000..c42d35a
+--- /dev/null
++++ b/main.rb
+@@ -0,0 +1 @@
++puts 'Hello, World'
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch6)
+$ git checkout branch7
+Switched to branch 'branch7'
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch7)
+$ git show HEAD
+commit 7d2f95f958f4446eb92c785d913a0e5d61c2f517 (HEAD -> branch7, origin/branch7)
+Author: olgacusnir <olga.cusnir@isa.utm.md>
+Date:   Mon Apr 3 00:53:02 2023 +0300
+
+    Add file main.php for branch7
+
+diff --git a/main.php b/main.php
+new file mode 100644
+index 0000000..0067a70
+--- /dev/null
++++ b/main.php
+@@ -0,0 +1 @@
++echo 'Hello, World';
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch7)
+$ git checkout branch8
+Switched to branch 'branch8'
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch8)
+$ git show HEAD
+commit 2699d966c676ef6686838ffc89792a07898f3adb (HEAD -> branch8, origin/branch8)
+Author: olgacusnir <olga.cusnir@isa.utm.md>
+Date:   Mon Apr 3 00:53:55 2023 +0300
+
+    Add file main.vbs for branch8
+
+diff --git a/main.vbs b/main.vbs
+new file mode 100644
+index 0000000..0c2645b
+--- /dev/null
++++ b/main.vbs
+@@ -0,0 +1 @@
++msgbox 'Hello, World'
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch8)
+$ git checkout branch9
+Switched to branch 'branch9'
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch9)
+$ git show HEAD
+commit 20af58717a9eff0250db38e5252144435e8ac079 (HEAD -> branch9, origin/branch9)
+Author: olgacusnir <olga.cusnir@isa.utm.md>
+Date:   Mon Apr 3 00:57:51 2023 +0300
+
+    Add file main.js for branch9
+
+diff --git a/main.js b/main.js
+index 3896d36..ca989d2 100644
+--- a/main.js
++++ b/main.js
+@@ -1 +1 @@
+-console.log(Hello, World);
++alert('Hello, World');
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch9)
+$ git checkout branch10
+Switched to branch 'branch10'
+
+okush@DESKTOP-KD3AQC5 MINGW64 ~/OneDrive/Рабочий стол/Универ/3курс/2 семест/PR/Laboratorul1 (branch10)
+$ git show HEAD
+commit 0c97ebd97733d54504004b2f95d4eb875b596b93 (HEAD -> branch10, origin/branch10)
+Author: olgacusnir <olga.cusnir@isa.utm.md>
+Date:   Mon Apr 3 00:59:02 2023 +0300
+
+    Add file main.go for branch10
+
+diff --git a/main.go b/main.go
+new file mode 100644
+index 0000000..d439d29
+--- /dev/null
++++ b/main.go
+@@ -0,0 +1 @@
++fmt.Println("Hello, World")
